@@ -1,10 +1,9 @@
 import React from 'react'
-import { Container, Col, Row, Table } from 'react-bootstrap'
+import { Container, Col, Row } from 'react-bootstrap'
 import StatTable from './StatTable'
 import TypeTable from './TypeTable'
-import { threeDigitNumber, getAbilityDescription } from '../functions/pokeFunctions'
+import { threeDigitNumber } from '../functions/pokeFunctions'
 import SizeTable from './SizeTable'
-import Typewriter from 'typewriter-effect/dist/core';
 
 
 
