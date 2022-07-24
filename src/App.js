@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import SearchBar from './components/SearchBar';
 import Nav from './components/Nav';
 import PokemonDetail from './components/PokemonDetail';
-import {getPokemon,getAllPokemon, getAbilityDescription} from './functions/pokeFunctions'
+import {getPokemon} from './functions/pokeFunctions'
 import {ToastContainer} from 'react-toastify'
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
       setPokemon(poke.pokemon)
       setPokemonDescription(poke.description)
       setCurrentPokemon(id)
+      console.log(pokemonDescription)
       setLoaded(true)
   }
 
@@ -34,6 +35,7 @@ function App() {
 
   useEffect(() => {
       retrieveCurrentPokemon(currentPokemon)
+      
   },[])
 
  

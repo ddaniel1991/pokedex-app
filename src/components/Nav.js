@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar } from 'react-bootstrap'
+import logo from '../Images/pokemon-logo.png'
 
 const Nav = () => {
   return (
@@ -9,7 +10,7 @@ const Nav = () => {
             <Navbar.Brand href="/#">
             <img
                 alt="pokemon logo"
-                src="/images/pokemon-logo.png"
+                src={logo}
                 width="200"
                 height="200"
                 className="pokemon-logo"
