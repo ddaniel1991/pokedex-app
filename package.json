@@ -1,6 +1,5 @@
 {
   "name": "pokedex",
-  "homepage": "https://david-codez.github.io/pokedex-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
